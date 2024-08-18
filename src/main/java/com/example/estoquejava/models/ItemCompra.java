@@ -15,8 +15,7 @@ public class ItemCompra {
         this.quantidade = quantidade;
         this.valor = valor;
         this.dataCompra = dataCompra;
-        this.dataEntrega = dataEntrega;
-        this.produtos = produtos;
+
     }
 
     public int getCodigo() {
@@ -51,14 +50,6 @@ public class ItemCompra {
         this.dataCompra = dataCompra;
     }
 
-    public LocalDate getDataEntrega() {
-        return dataEntrega;
-    }
-
-    public void setDataEntrega(LocalDate dataEntrega) {
-        this.dataEntrega = dataEntrega;
-    }
-
   
     @Override
     public String toString() {
@@ -67,8 +58,6 @@ public class ItemCompra {
                 ", quantidade=" + quantidade +
                 ", valor=" + valor +
                 ", dataCompra=" + dataCompra +
-                ", dataEntrega=" + dataEntrega +
-                ", produtos=" + produtos +
                 '}';
     }
 
